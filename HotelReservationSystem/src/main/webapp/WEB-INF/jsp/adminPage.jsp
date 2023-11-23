@@ -22,6 +22,8 @@
 <a href="/hotelInd" class="btn btn-primary mr-3">HOTEL</a>
 <a href="/accommodationInd" class="btn btn-primary mr-3">ACCOMMODATION</a>
 <a href="/clientInd" class="btn btn-primary mr-3">CLIENT</a>
-<a href="" class="btn btn-primary mr-3">CLIENT-SERVICE</a>
+<a href="/clientServiceInd" class="btn btn-primary mr-3">CLIENT-SERVICE</a>
+<br><br>
+<a href="/index" class="btn btn-primary mr-3">Home Page</a>
 </body>
 </html>

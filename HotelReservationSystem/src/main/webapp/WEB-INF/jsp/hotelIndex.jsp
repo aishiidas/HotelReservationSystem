@@ -21,9 +21,9 @@
 <h2>
 <a href="/hotel" class="btn btn-primary mr-3">New Hotel Entry</a>
 &nbsp; &nbsp;
-<a href="/hotelFindPage" class="btn btn-primary mr-3">Display/Update A Hotel</a>
-&nbsp; &nbsp;
 <a href="/hotels" class="btn btn-primary mr-3">Display All Hotels</a>
+<br><br>
+<a href="/admin" class="btn btn-primary mr-3">Back</a>
 </h2>
 </div>
 </body>

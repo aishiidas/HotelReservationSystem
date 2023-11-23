@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Accommodation Index Page</title>
+<title>Client Index Page</title>
 <style>
         body {
             background-image: url('file:///D:/Anudipjava/Batch5904/SprintProject/Projectdb/src/main/webapp/WEB-INF/jsp/image.jpg')'; /* Replace with the path to your image */
@@ -19,12 +19,15 @@
 <body>
 <div class="container text-center mt-5">
 <h2>
-<a href="/accommodation" class="btn btn-primary mr-3">New Accommodation Entry</a>
+<a href="/client-service-entry" class="btn btn-primary mr-3">New Client-Service Entry</a>
 &nbsp; &nbsp;
-<a href="/accommodations" class="btn btn-primary mr-3">Display All Accommodation</a>
+<a href="/show" class="btn btn-primary mr-3">Display A Client-Service</a>
+&nbsp; &nbsp;
+<a href="/display" class="btn btn-primary mr-3">Display All Client-Services</a>
 <br><br>
 <a href="/admin" class="btn btn-primary mr-3">Back</a>
 </h2>
+
 </div>
 
 </body>

@@ -17,6 +17,8 @@
             New Accommodation fare per day: <input type="text" name="farePerDay"/>
             <br><br>
             <button type="submit">Submit</button>
+            &nbsp;&nbsp;
+            <button><a href="/accommodationInd">Return</a></button>
         </h3>
     </form>
 </div>

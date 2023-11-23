@@ -1,5 +1,8 @@
 package org.anudip.HotelReservationSystem.bean;
 
+import java.util.List;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -7,7 +10,8 @@ import javax.persistence.Id;
 public class ClientService {
 	@Id
 	private Long serialNumber; // Auto-generated
-    private Long clientId;  //dropdown
+	@Column(name = "client_id")
+	private Long clientId;  //dropdown
 
     private String serviceType; //dropdown
     private String date;
@@ -58,6 +62,12 @@ public class ClientService {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-    
+	public static double calculateTotalPayment(List<ClientService> clientServices) {
+        double totalPayment = 0.0;
+        for (ClientService service : clientServices) {
+            totalPayment += service.getAmount();
+        }
+        return totalPayment;
+    }
 
 }

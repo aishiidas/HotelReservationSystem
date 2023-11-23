@@ -16,6 +16,8 @@ New Hotel Id:<form:input type="text" path="hotelId" readOnly="true"/>
 New Hotel Name:<form:input type="text" path="hotelName"/>
 </br></br>
 <button type="submit">Submit</button>
+&nbsp;&nbsp;
+<button><a href="/hotelInd">Return</a></button>
 </h3>
 </form:form>
 </div>

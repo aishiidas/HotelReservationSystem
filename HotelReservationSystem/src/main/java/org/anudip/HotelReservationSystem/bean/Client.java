@@ -1,17 +1,24 @@
 package org.anudip.HotelReservationSystem.bean;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 @Entity
 public class Client {
 	@Id
+	 @Column(name = "client_id")
 	private Long clientId;  //autogenarated
 	 private String clientName;  //
 	 private String clientAddress; //
-	 private String contactNo;  //
+	 private String contactNo;//
+	 @Column(name = "hotel_id")
 	 private String hotelId; //dropdown
+	 @Column(name = "accommodation_id")
 	 private String accommodationId; //dropdown
+	 @Column(name = "check_in_date")
 	 private String checkInDate;
+	 @Column(name = "check_out_date")
 	 private String checkOutDate;
+	 @Column(name = "pay_status")
 	 private String payStatus; //dropdown
 	public Client() {
 		super();
@@ -86,6 +93,10 @@ public class Client {
 	}
 	public void setPayStatus(String payStatus) {
 		this.payStatus = payStatus;
+	}
+	public void save(Client client) {
+		// TODO Auto-generated method stub
+		
 	}
 		
 	 
